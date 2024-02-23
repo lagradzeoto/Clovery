@@ -1,0 +1,1164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navigation {
+  background-color: #8c0000;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 60px;
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.navigation div h1 {
+  font-weight: 300;
+  font-size: 15px;
+  margin-left: -100px;
+}
+
+.navigation div i {
+  font-size: 20px;
+}
+
+.clovers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 91px;
+  padding-inline: 60px;
+  background-color: #eb1414;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.clovers h1 {
+  font-size: 33px;
+}
+
+.clovers .input {
+  display: flex;
+}
+
+.clovers input {
+  height: 41px;
+  width: 480px;
+  background-color: #eb1414;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px 0px 0px 20px;
+  border-right: none;
+  padding-left: 20px;
+}
+
+.clovers input::placeholder {
+  color: white;
+}
+
+.clovers button {
+  background-color: white;
+  height: 41px;
+  color: #eb1414;
+  width: 50px;
+  border: none;
+  border-left: 0px;
+  border-radius: 0px 20px 20px 0px;
+  align-items: center;
+}
+
+.icons1 {
+  display: flex;
+  gap: 15px;
+  font-size: 22px;
+}
+
+.thirdnav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thirdnav ul {
+  display: flex;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  gap: 50px;
+  font-weight: 200;
+}
+
+/* .thirdnav ul::after cursor{
+    color: #8C0000;
+} */
+
+img {
+  width: 100%;
+}
+
+.picturespan {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts {
+  height: 165px;
+  background-color: white;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  height: 59px;
+  gap: 15px;
+  border-right: 1px solid black;
+  padding-right: 110px;
+}
+
+.div4 {
+  border: none;
+}
+
+.div i {
+  font-size: 40px;
+  color: #eb1414;
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+}
+
+.order a {
+  color: black;
+}
+
+.contacts p {
+  font-size: 15px;
+}
+
+.span1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.span2 {
+  font-weight: 200;
+}
+
+h2 {
+  height: 80px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 33px;
+  padding-inline: 150px;
+  font-family: "Poppins", sans-serif;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  width: 260px;
+  height: 450px;
+  margin-inline: 60px;
+  position: relative;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 15px;
+}
+
+.card1 img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  z-index: -1;
+}
+
+.sale {
+  position: absolute;
+  background-color: #eb1414;
+  width: fit-content;
+  height: 25px;
+  left: 20px;
+  top: 20px;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.downside {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.downside p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.downside input {
+  width: 90%;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  padding-left: 100px;
+}
+
+.kalata {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.boneless {
+  position: absolute;
+  bottom: 100px;
+}
+
+.oldprice {
+  color: #eb1414;
+  text-decoration: line-through;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.newprice {
+  color: #eb1414;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.downside button {
+  background-color: black;
+  color: white;
+  width: 90%;
+  height: 35px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.downside a {
+  text-decoration: none;
+}
+
+.downside a {
+  color: white;
+  list-style: none;
+}
+
+.shopbestdeal {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #eb1414;
+  border: 1px solid #eb1414;
+  position: relative;
+  color: white;
+  font-size: 15px;
+  display: block;
+  margin: 50px auto;
+}
+
+.shopbestdeal:hover {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid #eb1414;
+  color: #eb1414;
+}
+
+.addimg {
+  display: flex;
+  width: 83%;
+  margin: 0 auto;
+  gap: 50px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.addimg1 {
+  background-image: url(./Fine_Wine_and_Regular_Wine.webp);
+  height: 517px;
+  flex: 3;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-inline: 20px;
+  position: relative;
+}
+
+.addimg2 {
+  flex: 1;
+  background-image: url(./cleaning.jpeg);
+  background-repeat: no-repeat;
+  height: 517px;
+  background-size: cover;
+}
+
+.limited {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  background-color: #eb1414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  position: absolute;
+  right: 35px;
+  top: 40px;
+  transform: rotate(20deg);
+}
+
+.addimgp1 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.addimgp2 {
+  font-size: 33px;
+}
+
+.addimg h1 {
+  font-size: 72px;
+}
+
+.addimgp3 {
+  font-size: 15px;
+  font-weight: 100;
+  width: 350px;
+}
+
+.addimg button,
+.addimg2 button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #eb1414;
+  border: 1px solid #eb1414;
+  position: relative;
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.addimg2 {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline: 20px;
+}
+
+.addimg2p {
+  font-size: 20px;
+}
+
+.procent h1 {
+  font-size: 110px;
+}
+
+.addimg2meorep {
+  font-size: 25px;
+}
+
+.procent {
+  position: relative;
+}
+
+.procent span {
+  position: absolute;
+  top: 36px;
+  right: 50px;
+  font-size: 25px;
+}
+
+.mostpopular {
+  margin-top: 50px;
+  margin: 50px auto;
+  padding-left: 144px;
+  font-size: 33px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  width: 88%;
+  margin: 37px auto;
+  justify-content: center;
+}
+
+.categoriescard img {
+  width: 250px;
+}
+
+.categoriescard {
+  width: 355px;
+  height: 390px;
+  border: 0.5px solid grey;
+  padding-inline: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.categoriescard p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.start {
+  margin-top: 70px;
+  padding-left: 144px;
+  font-size: 33px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.shopmore {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #eb1414;
+  border: 1px solid #eb1414;
+  position: relative;
+  color: white;
+  font-size: 15px;
+  display: block;
+  margin: 50px auto;
+}
+
+.shopmore:hover {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid #eb1414;
+  color: #eb1414;
+}
+
+.shopwithus {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  background-image: url(./gilles-lambert-pb_lF8VWaPU-unsplash.jpg);
+  background-position: left 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 70px;
+  flex-direction: row-reverse;
+  gap: 35px;
+}
+
+.savetime {
+  font-size: 25px;
+}
+
+.playstory {
+  position: relative;
+  top: 100px;
+}
+
+.shopwithus h1 {
+  font-size: 65px;
+  width: 440px;
+}
+
+.yourweekly {
+  font-size: 20px;
+  width: 300px;
+}
+
+.playstoryimg1 {
+  width: 236px;
+  height: 519px;
+  border-radius: 35px;
+  border: 0.1px solid grey;
+  box-shadow: 5px 0px 10px 0px grey;
+}
+
+.smallimg {
+  display: flex;
+}
+
+.smallimg img {
+  width: 150px;
+}
+
+.textdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 40px;
+  gap: 10px;
+  
+  align-items: center;
+}
+
+/* .smallimg{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 190px auto;
+} */
+
+/* .playstoryimg2{
+  width: 157px;
+  height: 56px;
+} */
+
+.favoritepastas {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 50px;
+  font-family: "Poppins", sans-serif;
+  color: hsl(0, 64%, 45%);
+}
+
+.taste1 {
+  background-image: url(./Macaroni-test_Barilla.jpeg);
+  height: 451px;
+  background-size: cover;
+width: 800px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-inline: 60px;
+}
+
+.italy {
+  font-size: 20px;
+}
+
+.great {
+  font-size: 33px;
+}
+
+.taste1 h1 {
+  font-size: 72px;
+}
+
+.taste1 button,
+.taste2 button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #eb1414;
+  border: 1px solid #eb1414;
+  position: relative;
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.taste2 {
+  background-image: url(./DSC_0026-1024x950.jpeg);
+  height: 451px;
+  background-size: cover;
+  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-inline: 60px;
+}
+
+.deall {
+  font-size: 20px;
+}
+
+.procent2 {
+  display: flex;
+}
+.procent2 h1 {
+  font-size: 110px;
+}
+
+.procent2 p {
+  font-size: 25px;
+}
+
+.cereal {
+  font-size: 25px;
+}
+
+.superdeal {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  background-color: #eb1414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  right: 25px;
+  top: 40px;
+  transform: rotate(20deg);
+  color: white;
+}
+
+.lastdiv {
+  background-image: url(./vegitable.webp);
+  background-size: cover;
+  height: 507px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.lasttext {
+  margin: 0 auto;
+}
+
+.subscribe {
+  font-size: 20px;
+}
+
+.lastdivdiv {
+  display: flex;
+}
+
+.lastdivdiv h1 {
+  font-size: 110px;
+}
+
+.lastdivdiv p {
+  font-size: 20px;
+}
+
+.yournext {
+  font-size: 25px;
+}
+
+.inputdiv input {
+  border-radius: 25px;
+  width: 528px;
+  height: 40px;
+  padding: 3px 3px 3px 21px;
+  border: none;
+}
+
+.inputdiv input:hover {
+  border-radius: 25px;
+  width: 528px;
+  height: 40px;
+  padding: 3px 3px 3px 21px;
+  border: white;
+  background-color: black;
+  color: white;
+}
+
+.lastbutton {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #eb1414;
+  border: 1px solid #eb1414;
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.lastbutton:hover {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid #eb1414;
+  color: #eb1414;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.footer {
+  background-color: #eb1414;
+  color: white;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.footer h1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.up {
+  display: flex;
+  padding: 75px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.first h1 {
+  font-size: 33px;
+}
+
+.first p {
+  font-size: 20px;
+}
+
+.ul1 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 0;
+}
+
+.ul2 {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 20px;
+  padding: 0;
+}
+
+.ciprebi {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.second ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 0;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.third ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 0;
+}
+
+.fourth {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.fourth ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 0;
+}
+
+.fifth {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.fifth ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 0;
+}
+
+.down {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 130px;
+}
+
+.divp {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  list-style: none;
+  gap: 60px;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.we {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.americanexpress {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.americanexpress img {
+  width: 54px;
+  height: 37px;
+}
+
+.line {
+  display: flex;
+  margin: auto;
+  width: 92%;
+  border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 1200px) {
+  .down {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .favoritepastas {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clovers {
+    padding: 50px;
+  }
+
+  .clovers input {
+    width: 250px;
+  }
+
+  .addimg {
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .clovers .icons1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    margin-left: 10px;
+    gap: 10px;
+  }
+
+  .clovers input {
+    display: none;
+  }
+
+  .savetime {
+    font-size: 17px;
+  }
+
+  .textdiv h1 {
+    font-size: 35px;
+    
+  }
+
+  .clovers .icons1 {
+    margin: 0px;
+  }
+
+  .clovers button {
+    border-radius: 20px;
+  }
+
+  .navh1 {
+    display: none;
+  }
+
+  .first,
+  .second {
+    width: 300px;
+    text-align: center;
+  }
+
+  .ul2 {
+    justify-content: center;
+  }
+
+  .up {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 280px;
+  }
+
+  .shopwithus {
+    flex-direction: column;
+  }
+
+  /* .playstoryimg1{
+    position: absolute;
+    right: 150px;
+    top: -175px;
+    width: 236px;
+    height: 519px;
+    border-radius: 35px;
+    border: 0.1px solid grey;
+    box-shadow: 5px 0px 10px 0px grey;
+    
+  } */
+
+  .textdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    gap: 10px;
+  }
+
+  .favoritepastas {
+    gap: 50px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    color: hsl(0, 64%, 45%);
+    justify-content: flex-start;
+    flex-direction: column;
+  
+  }
+  .taste1, .taste2{
+     width: 100%;
+  }
+
+  .up {
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .clovers {
+    display: flex;
+
+    align-items: center;
+    height: 180px;
+    padding-inline: 60px;
+    background-color: #eb1414;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    bottom: 50px;
+    position: relative;
+  }
+
+  .clovers input {
+    height: 41px;
+    width: 440px;
+    background-color: #eb1414;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+    position: absolute;
+    margin-top: 115px;
+    right: 60px;
+    display: block;
+  }
+
+ 
+  .input button {
+    background-color: rgb(137, 10, 10);
+    height: 41px;
+    color: #eb1414;
+    width: 50px;
+    border: none;
+    border-left: 0px;
+    border-radius: 0px 20px 20px 0px;
+    position: relative;
+    left: 205px;
+    top: 115px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .addimg {
+    display: flex;
+    width: 83%;
+    margin: 0 auto;
+    gap: 50px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    flex-wrap: wrap;
+  }
+
+  .shopwithus {
+    font-family: "Poppins", sans-serif;
+    height: 546px;
+    width: 80%;
+    background-image: url(./gilles-lambert-pb_lF8VWaPU-unsplash.jpg);
+    background-position: left 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 70px;
+    left: 100px;
+  }
+
+  .taste1 {
+    background-image: url(./Macaroni-test_Barilla.jpeg);
+    height: 451px;
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 25px;
+  }
+
+  .taste2 {
+    background-image: url(./DSC_0026-1024x950.jpeg);
+    height: 451px;
+    background-size: cover;
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 43px;
+  }
+
+  .inputdiv input {
+    border-radius: 25px;
+    width: 500px;
+    height: 40px;
+    padding: 3px 3px 3px 21px;
+    border: none;
+  }
+
+  .up {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .americanexpress {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 59px;
+    gap: 15px;
+    border-right: 0 solid black;
+    padding-right: 110px;
+    margin: auto;
+  }
+}
